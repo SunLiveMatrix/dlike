@@ -1,0 +1,90 @@
+use this;
+
+=begin
+ DESCRITION: DLike;
+ Editor.tool;
+ Menu.tool;
+ File.tool;
+ Edit.tool;
+ View.tool;
+ Navigate.tool;
+ Code.tool;
+ Refector.tool;
+ Run.tool;
+ Tool.tool;
+ VCS.tool;
+ Window.tool;
+ DBNavigate.tool;
+ Help.tool;
+=end
+
+=head DESCRIPTION
+ begin of section about the application
+ gnu-doc -- Documentation
+ the documentation for the application
+ application -- Documentation
+ updated to the lastest version
+ map -- Map
+ command -- Command
+ return -- Return
+ path -- Path
+ args -- Arguments
+ array -- Array
+ preview -- Preview
+ progress -- Progress
+ search -- Search
+ view -- View
+ post -- Post
+
+
+ sub section is export {
+     my $name = "";
+     my $ware = "";
+     my $help = "";
+     my $version = "";
+
+
+    if $name == "", "then name is required" {
+       say "Please" if $help == "";
+       say "Please" if $version == "";
+       say "Please" if $ware == "";
+    }
+
+    multi tile(Name:D, Version:D, $name, $version) {
+
+         $name => $name;
+         $version => $version;
+
+         say "Please" if $help == "";
+         say "please" if $version == "";
+    }
+
+
+ }
+
+=end
+
+=item OPERATORS
+ ! operator financial
+ @ operator financial
+ # operator financial
+ $ operator financial
+ % operator financial
+ & operator financial
+ * operator financial
+
+ sub operator is export {
+    sub true($value) {
+        $value => $value;
+    }
+    sub new($operator) {
+        $operator =>$operator;
+    }
+    my $symbol = new(operator[$!]);
+
+    Array.prototype = new(operator["!", "@", "#", "$!", "%", "", "&", "*"]);
+    $symbol.isExport = true(512*5);
+
+
+}
+=end

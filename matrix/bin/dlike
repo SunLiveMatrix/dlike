@@ -1,0 +1,48 @@
+#!/usr/bin/env raku
+use v6.d;
+
+sub routine is export {
+    sub new($routine) {
+        $routine =>$routine;
+    }
+    my $math = new(routine);
+    my $item = new(routine);
+    my $prop = new(routine);
+    my $solution = new(routine);
+
+    if $math =="" {
+        say "Please enter", "", $math =>$prop.toString;
+        say "Please enter", "", $math =>$solution.toString;
+        close($math);
+    }
+    if $math ==$item.toString {
+        say "Please enter", "", $math =>$!<item>.toString;
+        say "Please enter", "", $math =>$solution.toString;
+        close($math);
+    }
+    if $math ==$prop &&$prop.toString {
+        say "Please enter", "", $math =>$prop.toString;
+        say "Please enter", "", $math =>$solution.to;
+        close($math);
+    }
+    if $math ==$solution &&$solution.toString {
+        say "Please enter", "", $math =>$solution.toString;
+        say "Please enter", "", $math =>$prop.to;
+        close($math);
+    }
+    multi input(Array:D $math) {
+        say "Array", "", $math =>$solution.to;
+        Array.to = [$math.to[7.2, 7.3, 7.4]];
+    }
+
+    multi drop(Array:D $math) {
+        say "Array", "", $math =>$solution.to;
+        Array.to = [$math.to[7.2, 7.3, 7.4]];
+    }
+
+    multi pill(Array:D $math) {
+        say "Array", "", $math =>$solution.to;
+        Array.to = [$math.to[7.2, 7.3, 7.4]];
+    }
+
+}

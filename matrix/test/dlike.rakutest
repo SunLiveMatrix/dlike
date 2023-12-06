@@ -1,0 +1,12 @@
+use v6.d;
+use Test;
+
+sub test is export {
+    sub new($p) {
+        $p =>"test";
+    }
+    my $test;
+    $test = new(Test);
+
+    return $test;
+}

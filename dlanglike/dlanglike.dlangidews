@@ -1,0 +1,9 @@
+{
+    "name": "dlanglike",
+    "description": null,
+    "projects": {
+        "dlike": "dlike/dub.json"
+    },
+    "includePath": {
+    }
+}

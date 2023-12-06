@@ -1,0 +1,27 @@
+{
+    "startupProject": "dlike",
+    "expandedItems": [
+        "/home/admin/dlang/dlike/dlanglike/dlike/dub.json",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/datas",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/syllabi",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/maxima/algebra",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/ggplot/industry",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/preface",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/maxima/field",
+        "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/ggplot"
+    ],
+    "selectedWorkspaceItem": "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/ggplot/industry/invest.d",
+    "files": [
+        {
+            "file": "/home/admin/dlang/dlike/dlanglike/dlike/source/platform/ggplot/industry/invest.d",
+            "column": 80,
+            "row": 0
+        }
+    ],
+    "breakpoints": [
+    ],
+    "bookmarks": [
+    ]
+}

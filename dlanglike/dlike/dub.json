@@ -1,0 +1,6 @@
+{
+    "name": "dlike",
+    "targetName": "dlike",
+    "targetType": "executable",
+    "targetPath": "bin"
+}
